@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="769" column="61" lean-forward="true" selection-start-line="769" selection-start-column="61" selection-end-line="769" selection-end-column="61" />
+            <state relative-caret-position="175">
+              <caret line="763" column="94" lean-forward="false" selection-start-line="763" selection-start-column="94" selection-end-line="763" selection-end-column="94" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -209,7 +210,7 @@
       <workItem from="1569520731795" duration="1042000" />
       <workItem from="1569561714694" duration="2557000" />
       <workItem from="1569913276083" duration="1907000" />
-      <workItem from="1569921112229" duration="5704000" />
+      <workItem from="1569921112229" duration="5993000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1569520333929</created>
@@ -337,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570155163439</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Rename">
+      <created>1570155359893</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570155359893</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14444000" />
+    <option name="totallyTimeSpent" value="14733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -376,7 +384,8 @@
     <MESSAGE value="reg &#10;Caste tyepe" />
     <MESSAGE value="Hostel.html created" />
     <MESSAGE value="contact numbers updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact numbers updated" />
+    <MESSAGE value="Rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -654,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="769" column="61" lean-forward="true" selection-start-line="769" selection-start-column="61" selection-end-line="769" selection-end-column="61" />
+        <state relative-caret-position="175">
+          <caret line="763" column="94" lean-forward="false" selection-start-line="763" selection-start-column="94" selection-end-line="763" selection-end-column="94" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

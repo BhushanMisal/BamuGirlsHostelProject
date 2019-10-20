@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_2.jpg" afterPath="$PROJECT_DIR$/images/bg_2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="110" column="51" lean-forward="false" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -84,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bg_2.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bg_2.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/bg_2.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -151,8 +151,8 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/Hostel.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="I:/BamuGirlsHostelProject/js/google-map.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -248,7 +248,7 @@
       <workItem from="1569561714694" duration="2557000" />
       <workItem from="1569913276083" duration="1907000" />
       <workItem from="1569921112229" duration="11732000" />
-      <workItem from="1571541995708" duration="3749000" />
+      <workItem from="1571541995708" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1569520333929</created>
@@ -460,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571545181449</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="image update2">
+      <created>1571545778192</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1571545778192</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24221000" />
+    <option name="totallyTimeSpent" value="24391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -503,7 +510,8 @@
     <MESSAGE value="2nd commmit" />
     <MESSAGE value="maps update" />
     <MESSAGE value="image update" />
-    <option name="LAST_COMMIT_MESSAGE" value="image update" />
+    <MESSAGE value="image update2" />
+    <option name="LAST_COMMIT_MESSAGE" value="image update2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -856,14 +864,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/bg_1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -910,6 +910,14 @@
     <entry file="file://$PROJECT_DIR$/images/bg_2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="110" column="51" lean-forward="false" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

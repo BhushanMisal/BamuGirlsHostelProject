@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="images updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ladmam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mishramam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nirmalamam.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/teacher-1.jpg" afterPath="" />
+    <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="page updated">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teacher.html" afterPath="$PROJECT_DIR$/teacher.html" />
     </list>
@@ -34,8 +30,8 @@
       <file leaf-file-name="teacher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="41" column="134" lean-forward="false" selection-start-line="41" selection-start-column="134" selection-end-line="41" selection-end-column="134" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -178,7 +174,7 @@
       <workItem from="1571625938397" duration="1748000" />
       <workItem from="1571629292517" duration="184000" />
       <workItem from="1571704476670" duration="3558000" />
-      <workItem from="1571716571453" duration="943000" />
+      <workItem from="1571716571453" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1569520333929</created>
@@ -348,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570245059985</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="page updated">
+      <created>1571717554999</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571717554999</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33131000" />
+    <option name="totallyTimeSpent" value="33462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -408,7 +411,8 @@
     <MESSAGE value="contact numbers updated" />
     <MESSAGE value="Rename" />
     <MESSAGE value="images updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="images updated" />
+    <MESSAGE value="page updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="page updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -732,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teacher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="41" column="134" lean-forward="false" selection-start-line="41" selection-start-column="134" selection-end-line="41" selection-end-column="134" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />

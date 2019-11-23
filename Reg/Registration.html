@@ -8,6 +8,78 @@
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <style type="text/css">
+        <!--
+        body  {
+            font: 100% Verdana, Arial, Helvetica, sans-serif;
+
+            margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+            padding: 0;
+            text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+            color: #000000;
+        }
+        .twoColFixLt #container {
+            width: 780px;
+            margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+            border: 1px solid #000000;
+            text-align: left; /* this overrides the text-align: center on the body element. */
+            background-color: #FC6;
+        }
+        .twoColFixLt #sidebar1 {
+            float: left; /* since this element is floated, a width must be given */
+            width: 220px;
+            background-color: #a7dbe2;
+            padding-top: 15px;
+            padding-right: 10px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+        }
+        .twoColFixLt #mainContent {
+            margin: 0 0 0 250px; /* the left margin on this div element creates the column down the left side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
+            padding: 0 20px 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+            color: #666;
+            font-size: 10px;
+            background-color: #FC6;
+        }
+        .fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+            float: right;
+            margin-left: 8px;
+        }
+        .fltlft { /* this class can be used to float an element left in your page */
+            float: left;
+            margin-right: 8px;
+        }
+        .clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+            clear:both;
+            height:0;
+            font-size: 1px;
+            line-height: 0px;
+        }
+        .sidebarnormtext {
+            font-size: 12px;
+            font-weight: normal;
+        }
+        .maindesign {
+            background-color: #a7dbe2;
+        }
+        .btnlst {
+            background-color: #8251D1;
+            border: 1px solid transparent;
+        }
+
+        -->
+    </style><!--[if IE 5]>
+    <style type="text/css">
+        /* place css box model fixes for IE 5* in this conditional comment */
+        .twoColFixLt #sidebar1 { width: 230px; }
+    </style>
+    <![endif]--><!--[if IE]>
+    <style type="text/css">
+        /* place css fixes for all versions of IE in this conditional comment */
+        .twoColFixLt #sidebar1 { padding-top: 30px; }
+        .twoColFixLt #mainContent { zoom: 1; }
+        /* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+    </style>
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
@@ -18,65 +90,631 @@
 
         <div class="container">
             <form method="POST" class="appointment-form" id="appointment-form">
-                <h2>Hostel Allotment Registration Form</h2>
-                <div class="form-group-1">
+                <table width="70%" border="0">
+                    <tbody><tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th class="twoColFixLt" scope="row">Applicants Name<span class="clearfloat"></span></th>
+                        <th scope="row">Father's/ Husband's Name</th>
+                    </tr>
+                    <tr>
+                        <td><span id="sprytextfield1">
+          <label>
+            <input type="text" name="fname" id="fname" tabindex="1" onblur="this.value = this.value.toUpperCase();" autocomplete="off">
+          </label>
+          <span class="textfieldRequiredMsg">Enter Your Name</span></span></td>
+                        <td><span id="sprytextfield2">
+          <label>
+            <input type="text" name="mname" id="mname" tabindex="2" onblur="this.value = this.value.toUpperCase();" autocomplete="off">
+          </label>
+          <span class="textfieldRequiredMsg">Enter Father's/Husband's Name</span></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Surname</th>
+                        <th scope="row">Date of Birth</th>
+                    </tr>
+                    <tr>
+                        <td><label>
+                            <input type="text" name="lname" id="lname" tabindex="3" onblur="this.value = this.value.toUpperCase();">
+                        </label></td>
+                        <td>
+                            <input type="text" name="dob" id="dob" size="15" tabindex="4" readonly="readonly">
+                            <a href="javascript:showCalender(this, &#39;dob&#39;)" onclick="setYears(1947, 2010); showCalender(this, &#39;dob&#39;);"><img src="./Hostel Admission 2019-20_ Dr. BAM University, Aurangabad_files/cal.gif" border="0"></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td><input type="hidden" name="totalage" id="totalage"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Gender</th>
+                        <th scope="row">Nationality</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+          <span id="spryradio1">
+          <label>
+            <input type="radio" name="gender" value="Male" id="gender_2" tabindex="5">
+            Male</label>
 
-                    <input type="text" name="frist_name" id="frist_name" placeholder="Frist Name" required />
-                    <input type="text" name="middle_name" id="middle_name" placeholder="Middle Name" required />
-                    <input type="text" name="last_name" id="last_name" placeholder="Last Name" required />
-                </div>
-                <div class="form-cAdd">
-                    <h3>Permanent Address Details</h3>
-                 <table>
-                     <tr>
-                         <td>
-                             <textarea rows="5" cols="10" placeholder="Address"></textarea>
-                         </td>
-                         <td>
-                             <input type="text" name="p-state" placeholder="state" id="p-state" required>
-                         </td>
-                     </tr>
-                 </table>
+          <label>
+            <input type="radio" name="gender" value="Female" id="gender_3" tabindex="6">
+            Female</label>
 
-                </div>
-                <div class="group-3">
-                    <input type="email" name="email" id="email" placeholder="Email" required />
-                    <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required />
-                    <div class="select-list">
-                        <select name="Cast" id="Cast">
-                            <option slected value="">Caste Type</option>
-                            <option value="Sc">SC</option>
-                            <option value="Open">Open</option>
-                            <option value="Minority">Minority</option>
-                            <option value="language">OBC</option>
+          <span class="radioRequiredMsg">Please make a selection.</span></span>
 
+                        </th>
+                        <td><label>
+                            <input type="text" name="nation" id="nation" size="15" value="Indian" tabindex="7">
+                        </label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
 
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group-2">
-                    <h3>How would you like to bo located ?</h3>
-                    <div class="select-list">
-                        <select name="confirm_type" id="confirm_type">
-                            <option seleected value="">By phone</option>
-                            <option value="by_email">By email</option>
-                        </select>
-                    </div>
-                    <div class="select-list">
-                        <select name="hour_appointment" id="hour_appointment">
-                            <option seleected value="">Hours : 8am 10pm</option>
-                            <option value="9h-11h">Hours : 9am 11pm</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
-                </div>
-                <div class="form-submit">
-                    <input type="submit" name="submit" id="submit" class="submit" value="Request an appointment" />
-                </div>
+                    <tr>
+                        <th scope="row">Caste</th>
+                        <th scope="row">Category belongs to</th>
+                    </tr>
+                    <tr>
+                        <th scope="row"><span id="sprytextfield3">
+          <label>
+            <input type="text" name="caste" id="caste" tabindex="8" autocomplete="off">
+          </label>
+          <span class="textfieldRequiredMsg">Enter Caste</span></span></th>
+                        <td><span id="spryselect1">
+          <select name="category" id="category" tabindex="9">
+            <option value="" selected="selected">Select Category</option>
+            <option value="OPEN">OPEN</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="VJ-A">VJ-A</option>
+            <option value="NT-B">NT-B</option>
+            <option value="NT-C">NT-C</option>
+            <option value="NT-D">NT-D</option>
+            <option value="SBC">SBC</option>
+            <option value="SEBC">SEBC</option>
+            <option value="EWS">EWS</option>
+                        <option value="PH">Physically Handicap</option>
+                        <option value="VH">Visually Handicap</option>
+          </select>
+          <span class="selectInvalidMsg">Please select a category</span><span class="selectRequiredMsg">Please select a category</span></span></td>
+                    </tr>
 
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Admission granted in:</th>
+                        <th scope="row">Subject-Department </th>
+                    </tr>
+                    <tr>
+                        <td><span id="spryselect2">
+          <select name="courseadmit" id="courseadmit" tabindex="10">
+
+           <option value="-">Select Course</option>
+           <option value="DEPM">DEPM</option>
+           <option value="DVoc">DVoc</option>
+           <option value="BPA">BPA</option>
+           <option value="BVoc">BVoc</option>
+           <option value="BTech">BTech</option>
+			  <option value="BMCJ">BMCJ</option>
+			  <option value="Cert-Course-in-Chinese">Cert-Course-in-Chinese</option>
+			  <option value="MA">MA</option>
+              <option value="MCom">MCom</option>
+              <option value="MIB">MIB</option>
+              <option value="MSc">MSc</option>
+              <option value="MEd">MEd</option>
+              <option value="LLM">LLM</option>
+              <option value="MCA">MCA</option>
+              <option value="MCM">MCM</option>
+              <option value="MBA">MBA</option>
+              <option value="MTA">MTA</option>
+              <option value="MPEd">MPEd</option>
+              <option value="MFA">MFA</option>
+              <option value="MPA">MPA</option>
+              <option value="MLib">MLib</option>
+              <option value="MMS">MMS</option>
+              <option value="MSW">MSW</option>
+              <option value="MD">MD</option>
+              <option value="MA(MCJ)">MA(MCJ)</option>
+              <option value="MJ">MJ</option>
+              <option value="MPhil">MPhil</option>
+              <option value="MTech">MTech</option>
+              <option value="PhD">PhD</option>
+              <option value="Pre-IAS Coaching">Pre-IAS Coaching</option>
+              <option value="Liberal Arts">Liberal Arts</option>
+              <option value="MRS-Socio-Culture-Pol-Sci">MRS-Socio-Culture-Pol-Sci</option>
+              <option value="MRS-Rural-Eco-Bank-Ind">MRS-Rural-Eco-Bank-Ind</option>
+              <option value="MSc-Conser-of-Biodiversity">MSc-Conser-of-Biodiversity</option>
+              <option value="MSc-Rural-Tech">MSc-Rural-Tech</option>
+              <option value="Integrated-BCA-MCA">Integrated-BCA-MCA</option>
+          </select>
+          <span class="selectInvalidMsg">Please select course.</span><span class="selectRequiredMsg">Please select course.</span></span></td>
+                        <td><label>
+                            <select name="subjectadmit" id="subjectadmit" tabindex="11">
+                                <option value="-" selected="selected">Select Subject/Dept</option>
+                                <option value="Archaeology">Archaeology</option>
+                                <option value="Bio-Chemistry">Bio-Chemistry</option>
+                                <option value="Botany">Botany</option>
+                                <option value="Chemical Technology">Chemical Technology</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Computer Sci. &amp; IT">Computer Sci. &amp; IT</option>
+                                <option value="College of Social Work">College of Social Work</option>
+                                <option value="Dance">Dance</option>
+                                <option value="Dramatics">Dramatics</option>
+                                <option value="Economics">Economics</option>
+                                <option value="Education">Education</option>
+                                <option value="English">English</option>
+                                <option value="Environmental Sci.">Environmental Sci.</option>
+                                <option value="Fine Art">Fine Art</option>
+                                <option value="Foreign Language">Foreign Language</option>
+                                <option value="Geography">Geography</option>
+                                <option value="GMNIRD">GMNIRD</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="History">History</option>
+                                <option value="Law">Law</option>
+                                <option value="Liberal Arts">Liberal Arts</option>
+                                <option value="Library &amp; Inf. Science">Library &amp; Inf. Science</option>
+                                <option value="Life Long Learning &amp; Extension">Life Long Learning &amp; Extension</option>
+                                <option value="Management Science">Management Science</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Mass Comm. &amp; Journalism">Mass Comm. &amp; Journalism</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Music">Music</option>
+                                <option value="Nanotechnology">Nanotechnology</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Pali &amp; Buddhism">Pali &amp; Buddhism</option>
+                                <option value="Physical Education">Physical Education</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Political Science">Political Science</option>
+                                <option value="Printing Technology">Printing Technology</option>
+                                <option value="Psychology">Psychology</option>
+                                <option value="Public Admin.">Public Admin.</option>
+                                <option value="Sanskrit">Sanskrit</option>
+                                <option value="Sociology">Sociology</option>
+                                <option value="Statistics">Statistics</option>
+                                <option value="Tourism Admin.">Tourism Admin.</option>
+                                <option value="Urdu">Urdu</option>
+                                <option value="Zoology">Zoology</option>
+                                <option value="Pre-IAS Coaching Center">Pre-IAS Coaching Center</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Women Study Center">Women Study Center</option>
+                                <option value="Vocational Education">Vocational Education</option>
+                                <option value="Thoughts of M.Phule &amp; Dr. Ambedkar">Thoughts of M.Phule &amp; Dr. Ambedkar</option>
+                            </select></label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" colspan="2">Select Semester</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="admitsem" id="admitsem" tabindex="9">
+                                <option value="" selected="selected">Select Semester</option>
+                                <option value="I">I</option>
+                                <option value="III">III</option>
+                                <option value="V">V</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date of Admission</th>
+                        <th scope="row">Date of PhD/Mphil Registration </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="admitdate" id="admitdate" size="15" tabindex="12" readonly="readonly">
+                            <a href="javascript:showCalender(this, &#39;admitdate&#39;)" onclick="setYears(2013, 2019); showCalender(this, &#39;admitdate&#39;);"><img src="./Hostel Admission 2019-20_ Dr. BAM University, Aurangabad_files/cal.gif" border="0"></a>
+                        </td>
+                        <td><input type="text" name="phdmphilreg" id="phdmphilreg" size="15" tabindex="13" readonly="readonly">
+                            <a href="javascript:showCalender(this, &#39;phdmphilreg&#39;)" onclick="setYears(2009, 2019); showCalender(this, &#39;phdmphilreg&#39;);"><img src="./Hostel Admission 2019-20_ Dr. BAM University, Aurangabad_files/cal.gif" border="0"></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Name of M.Phil/Ph.D. Guide</th>
+                        <th scope="row">Cell no. of Guide</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="phdmphilguide" id="phdmphilguide" size="15" tabindex="14">
+                        </td>
+                        <td><input type="text" name="guidemobile" id="guidemobile" size="15" tabindex="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Address of Guide</th>
+                        <th scope="row">Want to Join Earn &amp; Learn Scheme?</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="guideaddress" id="guideaddress" size="15" tabindex="16">
+                        </td>
+                        <td>
+                            <input type="radio" name="earnlearnscheme" id="earnlearnscheme" value="Yes" tabindex="17"> Yes      <input type="radio" name="earnlearnscheme" id="earnlearnscheme" value="No" tabindex="18"> No
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" colspan="2" align="center"><font size="+0.5"><strong>Previous Education Details</strong></font></th>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Previous Institution Last attended:</th>
+                        <th scope="row">Previous Department in University </th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="previousinst" id="previousinst" tabindex="14"></td>
+                        <td><label>
+                            <select name="previousdept" id="previousdept" tabindex="15">
+                                <option value="-" selected="selected">Not Applicable</option>
+                                <option value="Bio-Chemistry">Bio-Chemistry</option>
+                                <option value="Botany">Botany</option>
+                                <option value="Chemical Technology">Chemical Technology</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Computer Sci. &amp; IT">Computer Sci. &amp; IT</option>
+                                <option value="Dance">Dance</option>
+                                <option value="Dramatics">Dramatics</option>
+                                <option value="Economics">Economics</option>
+                                <option value="Education">Education</option>
+                                <option value="English">English</option>
+                                <option value="Environmental Sci.">Environmental Sci.</option>
+                                <option value="Fine Art">Fine Art</option>
+                                <option value="Foreign Language">Foreign Language</option>
+                                <option value="Geography">Geography</option>
+                                <option value="GMNIRD">GMNIRD</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="History">History</option>
+                                <option value="Law">Law</option>
+                                <option value="Liberal Arts">Liberal Arts</option>
+                                <option value="Library &amp; Inf. Science">Library &amp; Inf. Science</option>
+                                <option value="Life Long Learning &amp; Extension">Life Long Learning &amp; Extension</option>
+                                <option value="Management Science">Management Science</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Mass Comm. &amp; Journalism">Mass Comm. &amp; Journalism</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Music">Music</option>
+                                <option value="Nanotechnology">Nanotechnology</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Pali &amp; Buddhism">Pali &amp; Buddhism</option>
+                                <option value="Physical Education">Physical Education</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Political Science">Political Science</option>
+                                <option value="Printing Technology">Printing Technology</option>
+                                <option value="Psychology">Psychology</option>
+                                <option value="Public Admin.">Public Admin.</option>
+                                <option value="Sanskrit">Sanskrit</option>
+                                <option value="Sociology">Sociology</option>
+                                <option value="Statistics">Statistics</option>
+                                <option value="Tourism Admin.">Tourism Admin.</option>
+                                <option value="Urdu">Urdu</option>
+                                <option value="Zoology">Zoology</option>
+                                <option value="Vocational Education">Vocational Education</option>
+                                <option value="Pre-IAS Coaching Center">Pre-IAS Coaching Center</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Women Study Center">Women Study Center</option>
+                                <option value="Thoughts of M.Phule &amp; Dr. Ambedkar">Thoughts of M.Phule &amp; Dr. Ambedkar</option>
+                            </select></label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Previous Course attended:</th>
+                        <th scope="row">Previous Subject</th>
+                    </tr>
+                    <tr>
+                        <td><span id="spryselect2">
+          <select name="previouscourse" id="previouscourse" tabindex="16">
+           <option value="-">Select Course</option>
+           <option value="SSC">SSC</option>
+           <option value="HSC">HSC</option>
+           <option value="BTech">BTech</option>
+           <option value="BPA">BPA</option>
+			  <option value="BMCJ">BMCJ</option>
+			  <option value="BSc">BSc</option>
+<option value="BCA">BCA</option>
+<option value="BCom">BCom</option>
+<option value="BCM">BCM</option>
+<option value="BCS">BCS</option>
+<option value="BA">BA</option>
+<option value="BFA">BFA</option>
+<option value="BBA">BBA</option>
+<option value="BVoc">BVoc</option>
+			  <option value="MA">MA</option>
+              <option value="MCom">MCom</option>
+              <option value="MSc">MSc</option>
+              <option value="MEd">MEd</option>
+              <option value="LLM">LLM</option>
+              <option value="MCA">MCA</option>
+              <option value="MCM">MCM</option>
+              <option value="MBA">MBA</option>
+              <option value="MTA">MTA</option>
+              <option value="MPEd">MPEd</option>
+              <option value="MFA">MFA</option>
+              <option value="MPA">MPA</option>
+              <option value="MLib">MLib</option>
+              <option value="MMS">MMS</option>
+              <option value="MD">MD</option>
+              <option value="MA(MCJ)">MA(MCJ)</option>
+              <option value="MJ">MJ</option>
+              <option value="MPhil">MPhil</option>
+              <option value="MTech">MTech</option>
+              <option value="MRS-Socio-Culture-Pol-Sci">MRS-Socio-Culture-Pol-Sci</option>
+              <option value="MRS-Rural-Eco-Bank-Ind">MRS-Rural-Eco-Bank-Ind</option>
+              <option value="MSc-Conser-of-Biodiversity">MSc-Conser-of-Biodiversity</option>
+              <option value="MSc-Rural-Tech">MSc-Rural-Tech</option>
+              <option value="PhD">PhD</option>
+          </select>
+          <span class="selectInvalidMsg">Select Previous Course</span><span class="selectRequiredMsg">Select Previous Course</span></span></td>
+                        <td><label>
+                            <select name="previoussubject" id="previoussubject" tabindex="17">
+                                <option value="-" selected="selected">Previous Subject</option>
+                                <option value="Archaeology">Archaeology</option>
+                                <option value="Bio-Chemistry">Bio-Chemistry</option>
+                                <option value="Botany">Botany</option>
+                                <option value="Chemical Technology">Chemical Technology</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Computer Sci. &amp; IT">Computer Sci. &amp; IT</option>
+                                <option value="Dance">Dance</option>
+                                <option value="Dramatics">Dramatics</option>
+                                <option value="Economics">Economics</option>
+                                <option value="Education">Education</option>
+                                <option value="English">English</option>
+                                <option value="Environmental Sci.">Environmental Sci.</option>
+                                <option value="Fine Art">Fine Art</option>
+                                <option value="Foreign Language">Foreign Language</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="History">History</option>
+                                <option value="Law">Law</option>
+                                <option value="Liberal Arts">Liberal Arts</option>
+                                <option value="Library &amp; Inf. Science">Library &amp; Inf. Science</option>
+                                <option value="Life Long Learning &amp; Extension">Life Long Learning &amp; Extension</option>
+                                <option value="Management Science">Management Science</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="Mass Comm. &amp; Journalism">Mass Comm. &amp; Journalism</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Music">Music</option>
+                                <option value="Nanotechnology">Nanotechnology</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Pali &amp; Buddhism">Pali &amp; Buddhism</option>
+                                <option value="Physical Education">Physical Education</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Political Science">Political Science</option>
+                                <option value="Printing Technology">Printing Technology</option>
+                                <option value="Psychology">Psychology</option>
+                                <option value="Public Admin.">Public Admin.</option>
+                                <option value="Sanskrit">Sanskrit</option>
+                                <option value="Sociology">Sociology</option>
+                                <option value="Statistics">Statistics</option>
+                                <option value="Tourism Admin.">Tourism Admin.</option>
+                                <option value="Urdu">Urdu</option>
+                                <option value="Zoology">Zoology</option>
+                                <option value="Vocational Education">Vocational Education</option>
+                                <option value="Pre-IAS Coaching Center">Pre-IAS Coaching Center</option>
+                                <option value="NIELIT">NIELIT</option>
+                                <option value="Women Study Center">Women Study Center</option>
+                                <option value="Thoughts of M.Phule &amp; Dr. Ambedkar">Thoughts of M.Phule &amp; Dr. Ambedkar</option>
+                            </select></label></td>
+                    </tr>
+                    <tr>
+                        <th class="twoColFixLt" scope="row" colspan="2" align="center">ज्या मेरीट नुसार विद्यापीठ विभागात प्रवेश भेटला असेल तेच मार्क नमूद करावेत</th>
+                    </tr>
+                    <tr>
+                        <th class="twoColFixLt" scope="row">PG CET 2019 Total Score</th>
+                        <th scope="row"><span id="sprytextfield17">
+          <label>
+            <input type="text" name="pgcetscore" id="pgcetscore" tabindex="18" size="7" autocomplete="off">
+          </label></span></th>
+                    </tr>
+                    <tr>
+                        <th class="twoColFixLt" scope="row">Obtained/ Total Marks</th>
+                        <th scope="row">Whether gap in current education</th>
+                    </tr>
+                    <tr>
+                        <td><span id="sprytextfield1">
+          <label>
+            <input type="text" name="obtainedmarks" id="obtainedmarks" tabindex="18" size="7">
+          </label>/
+           <label>
+            <input type="text" name="totalmarks" id="totalmarks" tabindex="19" size="7">
+          </label>
+          <span class="textfieldRequiredMsg">Enter Obtained Marks</span></span><br><b>Grade:</b> <input type="text" name="cgpagrade" id="cgpagrade" tabindex="20" size="7"></td>
+                        <td>
+
+                            <input type="radio" name="gapineducation" id="gapineducation" value="Yes" tabindex="20"> Yes      <input type="radio" name="gapineducation" id="gapineducation" value="No" tabindex="21"> No
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Previous University Hostel attended:</th>
+                        <th scope="row">Previous Stay in Hostel for the year:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="stayunihostelno" id="stayunihostelno" tabindex="20">
+                        </td>
+                        <td><label>
+                            <select name="stayunihostelyr" id="stayunihostelyr" tabindex="21">
+                                <option value="-" selected="selected">Select Year</option>
+                                <option value="2007-08">2007-08</option>
+                                <option value="2008-09">2008-09</option>
+                                <option value="2009-10">2009-10</option>
+                                <option value="2010-11">2010-11</option>
+                                <option value="2011-12">2011-12</option>
+                                <option value="2012-13">2012-13</option>
+                                <option value="2013-14">2013-14</option>
+                                <option value="2014-15">2014-15</option>
+                                <option value="2015-16">2015-16</option>
+                                <option value="2016-17">2016-17</option>
+                                <option value="2017-18">2017-18</option>
+                                <option value="2018-19">2018-19</option>
+                                <option value="2019-20">2019-20</option>
+
+                            </select></label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Previous Years of Stay at University Hostel:</th>
+                        <th scope="row">Blood Group</th>
+                    </tr>
+                    <tr>
+                        <td><span id="spryselect2">
+          <select name="stayunihostel" id="stayunihostel" tabindex="22">
+           <option value="-">Select Years</option>
+           <option value="0">0</option>
+           <option value="0.5">0.5</option>
+           <option value="1">1</option>
+            <option value="1.5">1.5</option>
+			  <option value="2">2</option>
+   			  <option value="2.5">2.5</option>
+			  <option value="3">3</option>
+    		  <option value="3.5">3.5</option>
+              <option value="4">4</option>
+              <option value="4.5">4.5</option>
+              <option value="5">5</option>
+
+          </select>
+          <span class="selectInvalidMsg">Select Year</span><span class="selectRequiredMsg">Select Year</span></span></td>
+                        <td><label>
+                            <select name="bloodgroup" id="bloodgroup" tabindex="23">
+                                <option value="-" selected="selected">Select Blood Group</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                            </select></label></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Correspondence Address</th>
+                        <th scope="row">Mobile No.</th>
+                    </tr>
+                    <tr>
+                        <td><span id="sprytextarea1">
+          <label>
+            <textarea name="caddress" id="caddress" cols="25" rows="3" tabindex="24" onblur="this.value = this.value.toUpperCase();" autocomplete="off"></textarea>
+          </label>
+          <span class="textareaRequiredMsg">Enter Address</span></span></td>
+                        <td><span id="sprytextfield4">
+        <label>
+          <input type="text" name="mobileno" id="mobileno" tabindex="25" size="12" maxlength="11" autocomplete="off">
+        </label>
+        <span class="textfieldRequiredMsg">Enter Mobile No.</span><span class="textfieldInvalidFormatMsg">Enter Numbers only.</span></span><br><br><br><br></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Permanent Address</th>
+                        <th scope="row"></th>
+                    </tr>
+                    <tr>
+                        <td><span id="sprytextarea1">
+          <label>
+            <textarea name="paddress" id="paddress" cols="25" rows="3" tabindex="26" onblur="this.value = this.value.toUpperCase();"></textarea>
+          </label>
+          <span class="textareaRequiredMsg">Enter Address</span></span></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email</th>
+                        <th>Security Code</th>
+                    </tr>
+                    <tr>
+                        <td><span id="sprytextfield5">
+        <label>
+          <input type="text" name="email" id="email" tabindex="28" autocomplete="off">
+        </label>
+        <span class="textfieldRequiredMsg">Enter Email Address</span><span class="textfieldInvalidFormatMsg">Invalid Email</span></span></td>
+                        <td><input id="txtCaptcha" type="text" name="txtCaptcha" value="" maxlength="7" size="10" tabindex="29"><img id="imgCaptcha" src="./Hostel Admission 2019-20_ Dr. BAM University, Aurangabad_files/create_image.php"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&nbsp;</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" align="right"><input name="subhostelform" type="submit" class="btnlst" value="Submit"></th>
+                        <td align="center"><input name="reshostelform" type="reset" class="btnlst"></td>
+                    </tr>
+                    </tbody></table>
+            </form>
+        </div>
+        <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat">
+        <!-- end #container --></div>
+    <table id="calenderTable">
+        <tbody id="calenderTableHead">
+        <tr>
+            <td colspan="4" align="center">
+                <select onchange="showCalenderBody(createCalender(document.getElementById(&#39;selectYear&#39;).value,
+	           this.selectedIndex, false));" id="selectMonth">
+                    <option value="0">Jan</option>
+                    <option value="1">Feb</option>
+                    <option value="2">Mar</option>
+
+                    <option value="3">Apr</option>
+                    <option value="4">May</option>
+                    <option value="5">Jun</option>
+                    <option value="6">Jul</option>
+                    <option value="7">Aug</option>
+                    <option value="8">Sep</option>
+
+                    <option value="9">Oct</option>
+                    <option value="10">Nov</option>
+                    <option value="11">Dec</option>
+                </select>
+            </td>
+            <td colspan="2" align="center">
+                <select onchange="showCalenderBody(createCalender(this.value,
+				document.getElementById(&#39;selectMonth&#39;).selectedIndex, false));" id="selectYear">
+
+                </select>
+            </td>
+            <td align="center">
+                <a href="http://109.73.164.202/~bamuacin/hosteladmit201920/hostelonlineform.php#" onclick="closeCalender();"><font color="#003333" size="+1">X</font></a>
+            </td>
+        </tr>
+        </tbody>
+        <tbody id="calenderTableDays">
+
+        <tr style="">
+            <td>Sun</td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td>
+        </tr>
+        </tbody>
+        <tbody id="calender"></tbody>
+
+    </table>
             </form>
         </div>
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -248,7 +247,12 @@
       <workItem from="1569561714694" duration="2557000" />
       <workItem from="1569913276083" duration="1907000" />
       <workItem from="1569921112229" duration="11732000" />
+<<<<<<< Updated upstream
       <workItem from="1571541995708" duration="3919000" />
+=======
+      <workItem from="1571541995708" duration="7137000" />
+      <workItem from="1574559103555" duration="2108000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1569520333929</created>
@@ -467,11 +471,33 @@
       <option name="project" value="LOCAL" />
       <updated>1571545778192</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="24391000" />
+=======
+    <task id="LOCAL-00032" summary="image update2">
+      <created>1571545946928</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571545946928</updated>
+    </task>
+    <task id="LOCAL-00033" summary="new update">
+      <created>1574561134506</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574561134506</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29717000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -511,7 +537,8 @@
     <MESSAGE value="maps update" />
     <MESSAGE value="image update" />
     <MESSAGE value="image update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="image update2" />
+    <MESSAGE value="new update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

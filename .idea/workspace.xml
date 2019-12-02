@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="about us">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-single.html" afterPath="" />
+    <list default="true" id="331a8403-68f1-436f-a242-b5f48c95fa6a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/0717b98c6a6bd391fb4f8df76acf1fcea07f5d98/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/21880c0ffe15753a53f8402e9f64e1077e071510/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/25faf4a967da51e59251c020bd6e9fa9d1fb23e3/extend.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/25faf4a967da51e59251c020bd6e9fa9d1fb23e3/fonts.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/25faf4a967da51e59251c020bd6e9fa9d1fb23e3/global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/25faf4a967da51e59251c020bd6e9fa9d1fb23e3/minxi.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/25faf4a967da51e59251c020bd6e9fa9d1fb23e3/variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/2866be86c578bb583fbf023501bb9fd24cc3bf22/extend.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/2866be86c578bb583fbf023501bb9fd24cc3bf22/fonts.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/2866be86c578bb583fbf023501bb9fd24cc3bf22/global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/2866be86c578bb583fbf023501bb9fd24cc3bf22/minxi.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/2866be86c578bb583fbf023501bb9fd24cc3bf22/variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/3948936f84e1a30385e73a9be140b58b48c82e15/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/responsive.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/extend.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/fonts.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/minxi.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/9dc767a56f3dc2f8a933300255cd2265f13191d4/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/9dc767a56f3dc2f8a933300255cd2265f13191d4/responsive.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/c36f88b26093e3516ab62f7245605adc5c11410b/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/c36f88b26093e3516ab62f7245605adc5c11410b/responsive.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/cec26e9170155d08bca7be48ab33ee76eb89985a/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/de43089b9300c63e94c69b4ea0269a5b0e6e6a33/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/de43089b9300c63e94c69b4ea0269a5b0e6e6a33/responsive.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/f71149907399ab955d3d70a25ac6bfed8a6004f4/extend.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/f71149907399ab955d3d70a25ac6bfed8a6004f4/fonts.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/f71149907399ab955d3d70a25ac6bfed8a6004f4/global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/f71149907399ab955d3d70a25ac6bfed8a6004f4/minxi.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/.sass-cache/f71149907399ab955d3d70a25ac6bfed8a6004f4/variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/Registration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/css/material-design-iconic-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/css/material-design-iconic-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-300.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-300.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-300.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-300.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-300.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/fonts/roboto-slab/roboto-slab-v7-latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/images/body-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/images/form-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/js/mainR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/common/extend.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/common/fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/common/global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/common/minxi.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/common/variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/layouts/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/layouts/responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/scss/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/vendor/jquery/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg/vendor/jquery/jquery.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hostel.html" afterPath="$PROJECT_DIR$/Hostel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Registration.html" afterPath="$PROJECT_DIR$/Registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teacher.html" afterPath="$PROJECT_DIR$/teacher.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +96,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="356" column="35" lean-forward="false" selection-start-line="356" selection-start-column="35" selection-end-line="356" selection-end-column="35" />
+            <state relative-caret-position="476">
+              <caret line="76" column="46" lean-forward="false" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,7 +114,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="0">
               <caret line="9070" column="20" lean-forward="false" selection-start-line="9070" selection-start-column="20" selection-end-line="9070" selection-end-column="20" />
               <folding />
             </state>
@@ -48,8 +124,8 @@
       <file leaf-file-name="teacher.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="52" column="134" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="134" />
+            <state relative-caret-position="442">
+              <caret line="55" column="70" lean-forward="true" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -58,18 +134,18 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="74" column="134" lean-forward="false" selection-start-line="74" selection-start-column="134" selection-end-line="74" selection-end-column="134" />
+            <state relative-caret-position="180">
+              <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hostel.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hostel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hostel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="345" column="7" lean-forward="false" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="74" column="64" lean-forward="false" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,8 +162,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="68" column="134" lean-forward="false" selection-start-line="68" selection-start-column="134" selection-end-line="68" selection-end-column="134" />
+            <state relative-caret-position="306">
+              <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -103,36 +179,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bg_2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/bg_2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Registration.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="7" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="-1895">
+              <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="112" selection-end-line="47" selection-end-column="112" />
               <folding>
-                <element signature="e#355#361#1" expanded="true" />
-                <element signature="e#379#385#1" expanded="true" />
-                <element signature="e#1260#1266#1" expanded="true" />
-                <element signature="e#1284#1290#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hostel Admission 2019-20_ Dr. BAM University, Aurangabad.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Hostel Admission 2019-20_ Dr. BAM University, Aurangabad.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1570613663972" expanded="true" signature="2634:2755" ph="..." />
-                <marker date="1570613663972" expanded="true" signature="2804:3068" ph="..." />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#13;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#7993#11408#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -152,6 +207,7 @@
       <find>Registration</find>
       <find>blog</find>
       <find>student says</find>
+      <find>Call Us: + 1235 2355 98</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,13 +223,13 @@
       <list>
         <option value="I:/BamuGirlsHostelProject/js/google-map.js" />
         <option value="$PROJECT_DIR$/Reg/Registration.html" />
-        <option value="$PROJECT_DIR$/Registration.html" />
-        <option value="$PROJECT_DIR$/Hostel.html" />
-        <option value="$PROJECT_DIR$/teacher.html" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/Hostel.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/teacher.html" />
+        <option value="$PROJECT_DIR$/Registration.html" />
       </list>
     </option>
   </component>
@@ -184,7 +240,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -209,40 +265,6 @@
             <path>
               <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="mixins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BamuGirlsHostelProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BamuGirlsHostelProject" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +325,8 @@
       <workItem from="1573712805404" duration="204000" />
       <workItem from="1574488419464" duration="8176000" />
       <workItem from="1574497678533" duration="3494000" />
-      <workItem from="1574841820013" duration="77000" />
+      <workItem from="1574841820013" duration="733000" />
+      <workItem from="1575292238645" duration="4982000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1569520333929</created>
@@ -536,16 +559,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574500654848</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="about us">
+      <created>1574841911590</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574841911590</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39250000" />
+    <option name="totallyTimeSpent" value="44888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29968944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1011,40 +1042,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Hostel Admission 2019-20_ Dr. BAM University, Aurangabad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1570613663972" expanded="true" signature="2634:2755" ph="..." />
-            <marker date="1570613663972" expanded="true" signature="2804:3068" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reg/Registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="81" column="12" lean-forward="false" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="7" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#355#361#1" expanded="true" />
-            <element signature="e#379#385#1" expanded="true" />
-            <element signature="e#1260#1266#1" expanded="true" />
-            <element signature="e#1284#1290#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/bg_2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/image_1.jpg">
@@ -1065,10 +1067,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9070" column="20" lean-forward="false" selection-start-line="9070" selection-start-column="20" selection-end-line="9070" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Hostel Admission 2019-20_ Dr. BAM University, Aurangabad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1570613663972" expanded="true" signature="2634:2755" ph="..." />
+            <marker date="1570613663972" expanded="true" signature="2804:3068" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="134" lean-forward="false" selection-start-line="68" selection-start-column="134" selection-end-line="68" selection-end-column="134" />
+        <state relative-caret-position="306">
+          <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1083,18 +1109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="74" column="134" lean-forward="false" selection-start-line="74" selection-start-column="134" selection-end-line="74" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="356" column="35" lean-forward="false" selection-start-line="356" selection-start-column="35" selection-end-line="356" selection-end-column="35" />
+        <state relative-caret-position="476">
+          <caret line="76" column="46" lean-forward="false" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1107,26 +1125,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/teacher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9070" column="20" lean-forward="false" selection-start-line="9070" selection-start-column="20" selection-end-line="9070" selection-end-column="20" />
+        <state relative-caret-position="442">
+          <caret line="55" column="70" lean-forward="true" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teacher.html">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="52" column="134" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="134" />
+        <state relative-caret-position="180">
+          <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hostel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="345" column="7" lean-forward="false" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="74" column="64" lean-forward="false" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1135,6 +1153,18 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1895">
+          <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="112" selection-end-line="47" selection-end-column="112" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7993#11408#0" expanded="false" />
           </folding>
         </state>
       </provider>

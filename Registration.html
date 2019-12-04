@@ -22,9 +22,14 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        .form-group{
+        .form{
 
-            margin: 50px;
+            align-content: center;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 100px;
+           font-size: 24px;
+            font-family: "Poppins", Arial, sans-serif;
         }
     </style>
 </head>
@@ -85,85 +90,74 @@
 </nav>
 <!-- END nav -->
 <form >
+    <div class="form">
     <div class="form-group">
+        <label FOR="formGroupExampleInput" size="50px" ><strong><h1>Personal Details</h1></strong></label><br>
         <label for="formGroupExampleInput">First Name</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Name">
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Name" required>
     </div>
     <div class="form-group">
-        <label for="formGroupExampleInput2">Middle Name</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Name">
+        <label for="formGroupExampleInput">Middle Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Name" required>
     </div>
     <div class="form-group">
-        <label for="formGroupExampleInput3">Last Name</label>
-        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter Name">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput4">College Name/Department/Course</label>
-        <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput5">Enter Percentage</label>
-        <input type="text" class="form-control" id="formGroupExampleInput5" placeholder="Enter Percentage without % symbol">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput6">Mobile Number</label>
-        <input type="text" class="form-control" id="formGroupExampleInput6" placeholder="Mobile Number">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput7"> Corresepondense Mobile Number</label>
-        <input type="text" class="form-control" id="formGroupExampleInput7" placeholder="Different Mobile Number">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput8">Parents Mobile Number</label>
-        <input type="text" class="form-control" id="formGroupExampleInput8" placeholder="Parrent Mobile Number">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput9">Address</label>
-        <input type="text" class="form-control" id="formGroupExampleInput9" placeholder="Stree No./ Locality/ Area">
-        <input type="text" class="form-control" id="formGroupExampleInput10" placeholder="Flat no. Area/ Building Name">
-        <input type="text" class="form-control" id="formGroupExampleInput11" placeholder="Pincode">
-        <input type="text" class="form-control" id="formGroupExampleInput12" placeholder="Landmark">
-        <input type="text" class="form-control" id="formGroupExampleInput13" placeholder="City">
-        <input type="text" class="form-control" id="formGroupExampleInput14" placeholder="State">
-
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput15">Correspondense Address</label>
-        <input type="text" class="form-control" id="formGroupExampleInput15" placeholder="Stree No./ Locality/ Area">
-        <input type="text" class="form-control" id="formGroupExampleInput16" placeholder="Flat no. Area/ Building Name">
-        <input type="text" class="form-control" id="formGroupExampleInput17" placeholder="Pincode">
-        <input type="text" class="form-control" id="formGroupExampleInput18" placeholder="Landmark">
-        <input type="text" class="form-control" id="formGroupExampleInput19" placeholder="City">
-        <input type="text" class="form-control" id="formGroupExampleInput20" placeholder="State">
-
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput21">CET  Score</label>
-        <input type="text" class="form-control" id="formGroupExampleInput21" placeholder="CET Score">
-    </div>
-    <div class="form-group">
-        <label for="formGroupExampleInput22">Income</label>
-        <input type="text" class="form-control" id="formGroupExampleInput22" placeholder="Income">
+        <label for="formGroupExampleInput">Last Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter Name" required>
     </div>
 
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile Number without +91">
-
+        <label for="formGroupExampleInput">Mobile Number </label>
+        <input type="number" class="form-control" id="formGroupExampleInput6" placeholder="Mobile Number" required minlength="10" maxlength="10">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput"> Corresepondense Mobile Number</label>
+        <input type="number" class="form-control" id="formGroupExampleInput7" placeholder="Different Mobile Number"  minlength="10" maxlength="10">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Parents Mobile Number</label>
+        <input type="text" class="form-control"  id="formGroupExampleInput8" placeholder="Parrent Mobile Number" required>
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Address</label>
+        <input type="text" class="form-control" id="formGroupExampleInput9" placeholder="Stree No./ Locality/ Area" required>
+        <input type="text" class="form-control" id="formGroupExampleInput10" placeholder="Flat no. Area/ Building Name" required>
+        <input type="number" class="form-control" id="formGroupExampleInput11" placeholder="Pincode" required minlength="5" maxlength="5">
+        <input type="text" class="form-control" id="formGroupExampleInput12" placeholder="Landmark" required>
+        <input type="text" class="form-control" id="formGroupExampleInput13" placeholder="City" required>
+        <input type="text" class="form-control" id="formGroupExampleInput14" placeholder="State" required>
 
     </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Correspondense Address</label>
+        <input type="text" class="form-control" id="formGroupExampleInput15" placeholder="Stree No./ Locality/ Area" required>
+        <input type="text" class="form-control" id="formGroupExampleInput16" placeholder="Flat no. Area/ Building Name" required>
+        <input type="number" class="form-control" id="formGroupExampleInput17" placeholder="Pincode"required minlength="5" maxlength="5">
+        <input type="text" class="form-control" id="formGroupExampleInput18" placeholder="Landmark" required>
+        <input type="text" class="form-control" id="formGroupExampleInput19" placeholder="City" required>
+        <input type="text" class="form-control" id="formGroupExampleInput20" placeholder="State" required>
+
+    </div>
+        <div class="from-group">
+            <label for="formGroupExampleInput"> Email</label>
+            <input type="email" class="form-control" id="formGroupExampleInput21" required placeholder="Enter e-mail">
+
+        </div>
 
 
 
 
 
-    <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label><br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
 
+
+
+
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label><br>
+            <a href="edu-details.html"> <button type="submit" class="btn btn-primary">Next</button></a>
+        </div>
+</div>
 </form>
 
 <!--	<section class="ftco-gallery">
